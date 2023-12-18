@@ -1,0 +1,41 @@
+{
+  "name": "nuxttest",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
+    "axios": "^0.21.1",
+    "codemirror": "~5.58.0",
+    "core-js": "^3.9.1",
+    "dayjs": "^1.8.36",
+    "echarts": "^4.9.0",
+    "file-saver": "^2.0.2",
+    "headroom.js": "^0.11.0",
+    "highlight.js": "^10.7.1",
+    "jszip": "^3.5.0",
+    "md5": "^2.3.0",
+    "nuxt": "^2.15.3",
+    "octokat": "^0.10.0",
+    "pangu": "^4.0.7",
+    "qrcode": "^1.4.4",
+    "sass.js": "^0.11.1",
+    "tsparticles": "^1.18.6",
+    "v-viewer": "^1.5.1",
+    "yunyuyuans-showdown": "^1.9.1"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.4",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.32.8",
+    "svg-sprite-loader": "^6.0.2"
+  }
+}

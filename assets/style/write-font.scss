@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'write-font';
+    src: url('https://cdn.jsdelivr.net/npm/write-font@latest/write.eot');
+    src: url('https://cdn.jsdelivr.net/npm/write-font@latest/write.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/npm/write-font@latest/write.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/npm/write-font@latest/write.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/npm/write-font@latest/write.ttf') format('truetype'),
+    url('https://cdn.jsdelivr.net/npm/write-font@latest/write.svg#write-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*[write-font] {
+  font-family: "write-font", serif;
+}

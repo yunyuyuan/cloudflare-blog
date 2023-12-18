@@ -1,0 +1,109 @@
+@import "./dracula-code";
+
+$theme: dracula;
+
+.cm-s-#{$theme} {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+
+  &.CodeMirror {
+    background: #2B2B2B;
+    color: #A9B7C6;
+  }
+
+  .cm-header {
+    color: #ff61ff;
+  }
+
+  .cm-hr {
+    color: #00f3ff;
+  }
+
+  .cm-trailing-space-a, .cm-trailing-space-new-line {
+    background: rgba(67, 154, 187, 0.12);
+  }
+
+  .cm-quote {
+    color: #22bd22;
+  }
+
+  .cm-comment {
+    color: #a5a5a5;
+  }
+
+  .cm-link {
+    color: #8989fd;
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  .cm-image-marker {
+    color: #51aee5;
+    font-weight: bold
+  }
+
+  .cm-string {
+    color: #ff953a;
+  }
+
+  .cm-url {
+    font-style: italic;
+  }
+
+  .cm-variable-1 {
+    color: #1f1f1f;
+  }
+
+  .cm-variable-2 {
+    color: #608ee8;
+  }
+
+  .cm-variable-3 {
+    color: #e25ac5;
+  }
+
+  .CodeMirror-cursor {
+    border-left: 1px solid #A9B7C6;
+  }
+
+  .CodeMirror-activeline-background {
+    background: #323232;
+  }
+
+  .CodeMirror-gutters {
+    background: #313335;
+    border-right: 1px solid #313335;
+  }
+
+  .CodeMirror-guttermarker {
+    color: #FFEE80;
+  }
+
+  .CodeMirror-guttermarker-subtle {
+    color: #D0D0D0;
+  }
+
+  .CodeMirrir-linenumber {
+    color: #606366;
+  }
+
+  .CodeMirror-matchingbracket {
+    background-color: #3B514D;
+    color: #FFEF28 !important;
+    font-weight: bold;
+  }
+
+  div.CodeMirror-selected {
+    background: #214283;
+  }
+}
+
+.CodeMirror-hints.#{$theme} {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #616569;
+  background-color: #ebf3fd !important;
+}
+
+.CodeMirror-hints.#{$theme} .CodeMirror-hint-active {
+  background-color: #a2b8c9 !important;
+  color: #5c6065 !important;
+}

@@ -1,0 +1,69 @@
+@import "./light-code";
+
+$theme: light;
+
+.cm-s-#{$theme} {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+
+  .cm-header {
+    color: purple;
+  }
+
+  .cm-trailing-space-a, .cm-trailing-space-new-line {
+    background: rgba(67, 154, 187, 0.12);
+  }
+
+  .cm-hr {
+    color: #359300;
+  }
+
+  .cm-quote {
+    color: #008200;
+  }
+
+  .cm-comment {
+    color: #7b7b7b;
+  }
+
+  .cm-link {
+    color: #0000FF;
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  .cm-image-marker {
+    color: #0004ff;
+    font-weight: bold
+  }
+
+  .cm-string {
+    color: #e56b00;
+  }
+
+  .cm-url {
+    font-style: italic;
+  }
+
+  .cm-variable-1 {
+    color: #1f1f1f;
+  }
+
+  .cm-variable-2 {
+    color: #0055ff;
+  }
+
+  .cm-variable-3 {
+    color: #dc00ff;
+  }
+}
+
+.CodeMirror-hints.#{$theme} {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #616569;
+  background-color: #ebf3fd !important;
+}
+
+.CodeMirror-hints.#{$theme} .CodeMirror-hint-active {
+  background-color: #a2b8c9 !important;
+  color: #5c6065 !important;
+}

@@ -1,0 +1,38 @@
+//@import "assets/style/public";
+//
+//.v-tips{
+//  position: absolute;
+//  display: flex;
+//  flex-direction: column;
+//  overflow: visible;
+//  height: 0;
+//  z-index: $z-index-tips;
+//  transform: translateY(calc(-100% - .3rem));
+//  >span, >.arrow{
+//    position: absolute;
+//  }
+//  >span{
+//    font-size: .8rem;
+//    display: block;
+//    padding: .4rem;
+//    border-radius: .15rem;
+//    box-shadow: 0 0 .2rem rgba(255, 255, 255, .6);
+//    z-index: 2;
+//    color: white;
+//    word-break: keep-all;
+//    max-width: 5rem;
+//    bottom: 0;
+//    left: 50%;
+//    transform: translateY(-.4rem) translateX(-50%);
+//    background: rgba(0, 0, 0, .8);
+//  }
+//  >.arrow{
+//    z-index: 3;
+//    bottom: 0;
+//    left: 50%;
+//    width: 1rem;
+//    height: 1rem;
+//    transform: rotate(180deg) translateX(50%);
+//    fill: rgba(0, 0, 0, .8);
+//  }
+//}

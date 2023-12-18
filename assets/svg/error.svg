@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+     y="0px"
+     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="69.6577" y1="448.2119" x2="416.14" y2="101.7296"
+                gradientTransform="matrix(1.0449 0 0 -1.0449 2.1991 543.3086)">
+	<stop offset="0" style="stop-color:#FF597A"/>
+    <stop offset="1" style="stop-color:#BD0019"/>
+</linearGradient>
+    <circle style="fill:url(#SVGID_1_);" cx="256" cy="255.996" r="255.996"/>
+    <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="242.3488" y1="30.2208" x2="242.8488" y2="29.7208"
+                    gradientTransform="matrix(1.0449 0 0 -1.0449 2.1991 543.3086)">
+	<stop offset="0" style="stop-color:#FF597A"/>
+        <stop offset="1" style="stop-color:#BD0019"/>
+</linearGradient>
+    <path style="fill:url(#SVGID_2_);" d="M256.003,512c0.067,0,0.133-0.002,0.2-0.002c-0.344,0-0.686-0.006-1.03-0.008
+	C255.45,511.991,255.726,512,256.003,512z"/>
+    <path style="fill:#C2001B;" d="M255.173,511.99c-1.293-0.004-2.582-0.026-3.87-0.049
+	C252.591,511.967,253.881,511.983,255.173,511.99z"/>
+    <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="49.8988" y1="274.9707" x2="435.8988" y2="274.9707"
+                    gradientTransform="matrix(1.0449 0 0 -1.0449 2.1991 543.3086)">
+	<stop offset="0" style="stop-color:#FFFFFF"/>
+        <stop offset="0.31" style="stop-color:#FCFCFC"/>
+        <stop offset="0.573" style="stop-color:#F2F1F3"/>
+        <stop offset="0.818" style="stop-color:#E1E0E3"/>
+        <stop offset="1" style="stop-color:#CFCDD3"/>
+</linearGradient>
+    <circle style="fill:url(#SVGID_3_);" cx="256" cy="255.996" r="201.662"/>
+    <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="142.9783" y1="374.8842" x2="342.8123" y2="175.0502"
+                    gradientTransform="matrix(1.0449 0 0 -1.0449 2.1991 543.3086)">
+	<stop offset="0" style="stop-color:#FF597A"/>
+        <stop offset="1" style="stop-color:#BD0019"/>
+</linearGradient>
+    <polygon style="fill:url(#SVGID_4_);" points="383.301,174.502 337.494,128.695 255.997,210.193 174.499,128.695 128.691,174.502
+	210.189,255.999 128.691,337.498 174.499,383.305 255.997,301.807 337.494,383.305 383.301,337.498 301.805,255.999 "/>
+</svg>

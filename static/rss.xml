@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>yunyuyuan的博客</title><link>https://blog.halberd.cn</link><description>yunyuyuan的博文Rss</description><ttl>3600</ttl><category>Blog/Web development</category><lastBuildDate>2021-09-20 01:52:44</lastBuildDate><language>zh-cn</language><item><author>yunyuyuan</author><title>vite+vue3下如何使用动态导入的svg-sprite</title><link>https://blog.halberd.cn/article/1632073964931</link><description>
+            <h3><b>vite+vue3下如何使用动态导入的svg-sprite</b></h3>
+            <span style="display: block">自己的一个小尝试</span>
+            <img src="/image/i.png" alt=""/>
+        </description><category>vue3/vite</category><pubDate>2021-09-20 01:52:44</pubDate><guid>1632073964931</guid></item><item><author>yunyuyuan</author><title>小诗</title><link>https://blog.halberd.cn/article/1623916218957</link><description>
+            <h3><b>小诗</b></h3>
+            <span style="display: block">.</span>
+            <img src="/image/i.png" alt=""/>
+        </description><category>闲话</category><pubDate>2021-06-17 15:50:18</pubDate><guid>1623916218957</guid></item><item><author>yunyuyuan</author><title>如何简单地在vue3中实现i18n</title><link>https://blog.halberd.cn/article/1619518179530</link><description>
+            <h3><b>如何简单地在vue3中实现i18n</b></h3>
+            <span style="display: block">不用第三方库，自己实现！</span>
+            <img src="https://z3.ax1x.com/2021/04/27/gC3m4S.jpg" alt=""/>
+        </description><category>vue/前端</category><pubDate>2021-04-27 18:09:39</pubDate><guid>1619518179530</guid></item><item><author>yunyuyuan</author><title>使用树莓派制作手机遥控小车</title><link>https://blog.halberd.cn/article/1618481094383</link><description>
+            <h3><b>使用树莓派制作手机遥控小车</b></h3>
+            <span style="display: block">大炮打蚊子的操作罢了</span>
+            <img src="https://z3.ax1x.com/2021/04/15/cRekY4.png" alt=""/>
+        </description><category>树莓派/python/flutter</category><pubDate>2021-04-15 18:04:54</pubDate><guid>1618481094383</guid></item><item><author>yunyuyuan</author><title>使用Nuxtjs+cloudflare page部署高可用的半静态博客</title><link>https://blog.halberd.cn/article/1617788956615</link><description>
+            <h3><b>使用Nuxtjs+cloudflare page部署高可用的半静态博客</b></h3>
+            <span style="display: block">标题辣末长，还要甚么简介</span>
+            <img src="https://z3.ax1x.com/2021/04/07/cGByUs.png" alt=""/>
+        </description><category>前端</category><pubDate>2021-04-07 17:49:16</pubDate><guid>1617788956615</guid></item><item><author>yunyuyuan</author><title>树莓派初次使用小记</title><link>https://blog.halberd.cn/article/1613797166312</link><description>
+            <h3><b>树莓派初次使用小记</b></h3>
+            <span style="display: block">raspberry pi!!!</span>
+            <img src="https://s3.ax1x.com/2021/02/19/yhMAfg.jpg" alt=""/>
+        </description><category>树莓派</category><pubDate>2021-02-20 12:59:26</pubDate><guid>1613797166312</guid></item><item><author>yunyuyuan</author><title>批量重命名工具</title><link>https://blog.halberd.cn/article/1611127151873</link><description>
+            <h3><b>批量重命名工具</b></h3>
+            <span style="display: block">一个使用PyQt5开发的批量重命名小工具</span>
+            <img src="https://s3.ax1x.com/2021/01/20/sWZ28J.png" alt=""/>
+        </description><category>PyQt5/软件/python</category><pubDate>2021-01-20 15:19:11</pubDate><guid>1611127151873</guid></item><item><author>yunyuyuan</author><title>论vue-cli项目如何优雅的托管在github page上</title><link>https://blog.halberd.cn/article/1603206409367</link><description>
+            <h3><b>论vue-cli项目如何优雅的托管在github page上</b></h3>
+            <span style="display: block">简谈我最近尝试的一些静态网站骚操作</span>
+            <img src="https://s1.ax1x.com/2020/10/20/BpxBvQ.png" alt=""/>
+        </description><category>前端/vue/github</category><pubDate>2020-10-20 23:06:49</pubDate><guid>1603206409367</guid></item><item><author>yunyuyuan</author><title>关于此站建设</title><link>https://blog.halberd.cn/article/1602140660667</link><description>
+            <h3><b>关于此站建设</b></h3>
+            <span style="display: block">第一篇文章，就谈谈本站的建设过程吧!</span>
+            <img src="https://s1.ax1x.com/2020/10/08/0wH4oR.jpg" alt=""/>
+        </description><category>非技术</category><pubDate>2020-10-08 15:04:20</pubDate><guid>1602140660667</guid></item></channel></rss>

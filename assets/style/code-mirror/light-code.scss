@@ -1,0 +1,108 @@
+$theme: light;
+
+.cm-s-#{$theme} {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+
+  span.cm-meta {
+    color: #808000;
+  }
+
+  span.cm-number {
+    color: #0000FF;
+  }
+
+  span.cm-keyword {
+    line-height: 1em;
+    font-weight: bold;
+    color: #000080;
+  }
+
+  span.cm-atom {
+    font-weight: bold;
+    color: #000080;
+  }
+
+  span.cm-def {
+    color: #000000;
+  }
+
+  span.cm-variable {
+    color: #000000;
+  }
+
+  span.cm-variable-2 {
+    color: #b300ff;
+  }
+
+  span.cm-variable-3, span.cm-type {
+    color: #005eff;
+  }
+
+  span.cm-property {
+    color: black;
+  }
+
+  span.cm-operator {
+    color: black;
+  }
+
+  span.cm-comment {
+    color: #808080;
+  }
+
+  span.cm-string {
+    color: #008000;
+  }
+
+  span.cm-string-2 {
+    color: #008000;
+  }
+
+  span.cm-qualifier {
+    color: #555;
+  }
+
+  span.cm-error {
+    color: #FF0000;
+  }
+
+  span.cm-attribute {
+    color: #0000FF;
+  }
+
+  span.cm-tag {
+    color: #ff3400;
+  }
+
+  span.cm-link {
+    color: #0000FF;
+  }
+
+  .CodeMirror-activeline-background {
+    background: #FFFAE3;
+  }
+
+  span.cm-builtin {
+    color: #30a;
+  }
+
+  span.cm-bracket {
+    color: #909018;
+  }
+
+  span.CodeMirror-matchingbracket {
+    background-color: #d5fff7;
+    font-weight: bold;
+  }
+}
+
+.CodeMirror-hints.#{$theme} {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #616569;
+  background-color: #ebf3fd !important;
+}
+
+.CodeMirror-hints.#{$theme} .CodeMirror-hint-active {
+  background-color: #a2b8c9 !important;
+  color: #5c6065 !important;
+}

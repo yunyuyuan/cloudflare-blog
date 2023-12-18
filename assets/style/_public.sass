@@ -1,0 +1,29 @@
+$head-height: 3rem
+$footer-height: 6rem
+$z-index-bg: 9
+$z-index-body: 10
+$z-index-head: 11
+$z-index-footer: 11
+$z-index-toggle-menu: 12
+$z-index-dialog: 90
+$z-index-record-detail: 100
+$z-index-message: 110
+$z-index-tips: 120
+$z-index-comment-card: 130
+$z-index-loading: 140
+
+@mixin text-overflow($line:1)
+  text-overflow: ellipsis
+  overflow: hidden
+  -webkit-box-orient: vertical
+  display: -webkit-box
+  -webkit-line-clamp: $line
+  word-break: break-all
+  white-space: pre-wrap
+
+@mixin media()
+  @media screen and (max-width: 768px)
+    @content
+@mixin pc()
+  @media screen and (min-width: 768px)
+    @content

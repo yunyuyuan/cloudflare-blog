@@ -1,0 +1,135 @@
+@import "assets/style/public";
+
+#__nuxt, #__layout{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#index {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  > .bg {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: $z-index-bg;
+    overflow: hidden;
+    @at-root #particles-bg {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, #16161e, #3a2e49);
+    }
+    @at-root #comet-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      transform: rotateZ(45deg);
+      transform-origin: center center;
+      > .comet {
+        position: absolute;
+        height: 2px;
+        background: linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+        border-radius: 999px;
+        filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+        animation-name: tail, shooting;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+
+        &:before, &:after {
+          content: '';
+          position: absolute;
+          top: calc(50% - 1px);
+          right: 0;
+          // width: 30px;
+          height: 2px;
+          background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+          transform: translateX(50%) rotateZ(45deg);
+          border-radius: 100%;
+          animation-name: shining;
+          animation-timing-function: inherit;
+          animation-iteration-count: infinite;
+          animation-duration: inherit;
+          animation-delay: inherit;
+        }
+
+        &:after {
+          transform: translateX(50%) rotateZ(-45deg);
+        }
+      }
+
+      @keyframes tail {
+        0% {
+          width: 0;
+        }
+        30% {
+          width: 100px;
+        }
+        100% {
+          width: 0;
+        }
+      }
+
+      @keyframes shining {
+        0% {
+          width: 0;
+        }
+        50% {
+          width: 30px;
+        }
+        100% {
+          width: 0;
+        }
+      }
+
+      @keyframes shooting {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(100vmax);
+        }
+      }
+
+      @keyframes sky {
+        0% {
+          transform: rotate(45deg);
+        }
+        100% {
+          transform: rotate(45 + 360deg);
+        }
+      }
+    }
+  }
+
+  > .body {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    z-index: $z-index-body;
+    flex-direction: column;
+    transition: opacity .2s linear;
+    opacity: 1;
+
+    &.show-bg {
+      opacity: 0;
+    }
+
+    &.show-head {
+      padding-top: $head-height;
+      height: calc(100% - #{$head-height});
+    }
+
+    &.mask-bg {
+      background: rgba(0, 0, 0, 0.1);
+    }
+  }
+}

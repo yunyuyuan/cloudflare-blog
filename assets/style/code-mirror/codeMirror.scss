@@ -1,0 +1,15 @@
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+  height: 1.3rem !important;
+  line-height: 1.3rem !important;
+}
+
+.CodeMirror .CodeMirror-scrollbar-filler {
+  background: transparent !important;
+}
+
+.CodeMirror-matchingtag{
+  background: unset;
+  &.cm-tag:not(.cm-bracket){
+    text-decoration: underline;
+  }
+}
